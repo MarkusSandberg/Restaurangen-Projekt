@@ -1,0 +1,22 @@
+.container-meny {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-auto-rows: 200px;
+  grid-gap: 10px;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-top: 50px;
+}
+
+.card {
+  grid-row: span 2;
+}
+
+/* Do an horizontal flip when you move the mouse over the flip box container */
+.flip-card-inner:hover {
+  transform: rotateY(180deg);
+}
+
+.flip-card-back {
+  transform: rotateY(180deg);
+}
