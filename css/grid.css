@@ -11,12 +11,3 @@
 .card {
   grid-row: span 2;
 }
-
-/* Do an horizontal flip when you move the mouse over the flip box container */
-.flip-card-inner:hover {
-  transform: rotateY(180deg);
-}
-
-.flip-card-back {
-  transform: rotateY(180deg);
-}

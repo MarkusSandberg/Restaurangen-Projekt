@@ -67,7 +67,7 @@
   }
 }
 
-/* Grid för menysidan! */
+/* Flipcards för menysidan! */
 .flip-card-inner {
   width: 100%;
   height: 100%;
@@ -95,9 +95,19 @@
   width: 100%;
   height: 100%;
   backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+
 }
 
 .card-picture {
   width: inherit;
   height: auto;
+}
+
+.flip-card-inner:hover {
+  transform: rotateY(180deg);
+}
+
+.flip-card-back {
+  transform: rotateY(180deg);
 }
